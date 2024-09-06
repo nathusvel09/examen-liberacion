@@ -1,0 +1,36 @@
+/* Estilos para la tarjeta de receta */
+.recipe-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .recipe-card h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-card h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-card ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+  }
+  
+  .recipe-card ul li {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .recipe-card p {
+    font-size: 16px;
+    color: #555;
+  }
+  
