@@ -1,0 +1,50 @@
+/* Estilos para el formulario */
+.calculator {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .btn-calculate {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn-calculate:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para mostrar el resultado */
+  .result {
+    background-color: #eaf4ff;
+    color: #0056b3;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
